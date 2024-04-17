@@ -5,7 +5,7 @@ public class IfSwitchWhlie {
     System.out.println(funcCheck);
   }
 
-  public static int if1(int i) {
+  public static int if1(int a) {
 
     int result = 0;
   
