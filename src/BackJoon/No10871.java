@@ -26,15 +26,18 @@ public class No10871 {
     for(int i = 0; i < arr.length; i++) {
       arr[i] = Integer.parseInt(st.nextToken());
     }
-
+    // x 보다 작은 수 출력
     for(int i = 0; i< arr.length; i++) {
       if(arr[i]< x) {
         bw.write(arr[i] + " ");
+        
       }
     }
+    
 
     br.close();
-    bw.flush();
+    bw.flush();    
     bw.close();
+    
   }
 }
